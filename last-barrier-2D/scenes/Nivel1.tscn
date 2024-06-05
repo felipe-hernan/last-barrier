@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/Fondo/dondo.jpg" type="Texture" id=1]
+
+[node name="Nivel1" type="Node2D"]
+
+[node name="Fondo" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Fondo"]
+
+[node name="Dondo" type="Sprite" parent="Fondo/ParallaxLayer"]
+position = Vector2( 515, 330 )
+scale = Vector2( 1.16667, 1.16667 )
+texture = ExtResource( 1 )

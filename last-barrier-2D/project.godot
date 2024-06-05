@@ -11,12 +11,13 @@ config_version=4
 [application]
 
 config/name="last-barrier-2D"
+run/main_scene="res://scenes/Nivel1.tscn"
 config/icon="res://icon.png"
 
 [display]
 
-window/size/test_width=512
-window/size/test_height=300
+window/size/test_width=960
+window/size/test_height=540
 
 [gui]
 
