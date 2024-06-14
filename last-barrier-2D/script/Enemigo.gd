@@ -7,4 +7,5 @@ func _process(delta):
 	move(delta)
 
 func move(delta):
-	set_offset(get_offset() + speed * delta)
+	#set_offset(get_offset() + speed * delta)
+	offset+=speed*delta
