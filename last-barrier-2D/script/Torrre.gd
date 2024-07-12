@@ -18,7 +18,7 @@ func _alerta():
 
 func _on_Timer_timeout():
 	$area/area_vision.disabled= true
-	print("reloj")
+	#print("reloj")
 
 
 

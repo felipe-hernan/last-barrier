@@ -21,6 +21,7 @@ animations = [ {
 [node name="PathFollow2D" type="PathFollow2D" groups=["Enemigo"]]
 rotate = false
 script = ExtResource( 6 )
+speed = 130.0
 
 [node name="Enemigo" type="Area2D" parent="." groups=["Enemigo"]]
 
@@ -31,7 +32,7 @@ shape = SubResource( 1 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Enemigo"]
 frames = SubResource( 2 )
 animation = "robot"
-frame = 1
+frame = 4
 playing = true
 
 [connection signal="area_entered" from="Enemigo" to="." method="_on_Enemigo_area_entered"]

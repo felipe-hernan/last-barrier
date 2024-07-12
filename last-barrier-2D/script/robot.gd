@@ -15,8 +15,8 @@ func move(delta):
 
 func _on_Enemigo_area_entered(area):
 	if area.is_in_group("proyectil"):
-		vida-=1
-		print(vida)
+		vida-=Global.quitarvida
+		#print(vida)
 
 func _vida():
 	if vida <=0:

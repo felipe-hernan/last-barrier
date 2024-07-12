@@ -10,7 +10,6 @@ func _physics_process(delta):
 
 func _on_Area2D_area_entered(area):
 	if area.is_in_group("Enemigo"):
-		print("pow")
 		queue_free() #se elimina el proyectil
 
 

@@ -11,8 +11,8 @@ config_version=4
 [application]
 
 config/name="last-barrier-2D"
-run/main_scene="res://scenes/Nivel1.tscn"
-config/icon="res://icon.png"
+run/main_scene="res://scenes/Menuprincipal.tscn"
+config/icon="res://assets/fondotexto/logotorre.png"
 
 [autoload]
 
@@ -20,7 +20,8 @@ Global="*res://script/Global.gd"
 
 [display]
 
-window/size/test_width=1000
+window/size/resizable=false
+window/size/test_width=1024
 window/size/test_height=600
 
 [gui]
